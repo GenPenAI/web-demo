@@ -1,7 +1,8 @@
 import { Providers } from './providers'
+import Head from 'next/head'
 
 export const metadata = {
-  title: 'wagmi',
+  title: 'GenPen AI',
 }
 
 export default function RootLayout({
@@ -12,7 +13,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Providers>{children}</Providers>
+        <Providers>
+          <Head>
+            <title>{metadata.title}</title>
+            <link rel="icon" href="/favicon.ico" />
+          </Head>
+          {children}
+          </Providers>
       </body>
     </html>
   )

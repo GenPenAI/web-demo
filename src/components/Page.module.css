@@ -90,4 +90,25 @@
     text-align: right;
     margin: 2rem auto;
   }
+  .quoteSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* adjust this value as needed */
+  }
+  
+  .quote {
+    flex: 1 1 50%; /* adjust these values as needed */
+    font-size: 1.5em; /* adjust this value as needed */
+    text-align: center;
+  }
+  
+  .imageContainer {
+    flex: 1 1 50%; /* adjust these values as needed */
+  }
+  
+  .carrerImage {
+    max-width: 100%;
+    height: auto;
+  }
   

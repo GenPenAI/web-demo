@@ -50,10 +50,7 @@ export default function Page() {
           <h2 className={styles.smallHeader}>Beginning the Basis <br /> for AI Polling with <br />Human Input</h2>
           <Link href="./components/researchIndex">Learn about our Patents</Link>
         </div>
-        <div className={styles.container}>
-          <h2 className={styles.smallHeader}>Join Us to build a <br />brighter future for<br />AIE</h2>
-          <Link href="./components/companyCareers">View Opportunities</Link>
-        </div>
+        
       </div>
       <hr />
       <h3>Latest Updates</h3>
@@ -107,9 +104,26 @@ export default function Page() {
     <Link href="/link/to/purchase">Purchase</Link>
   </div>
 </div>
-
-      <Footer />
-    </div>
+<hr />
+<h3>Opportunities at GenPen AI</h3>
+<img src="/logo.png" alt="Big Careers Image"/>
+<hr />
+<div className={styles.quoteSection}>
+  <blockquote className={styles.quote}>
+    "Working at GenPen AI has brought <br /> me great fortune and wealth."
+  </blockquote>
+  <div className={styles.imageContainer}>
+    <img src="/logotri.png" alt="Career Image" className={styles.careerImage}/>
+  </div>
+</div>
+<hr />
+ <h1 className={styles.title}>Join us to make a brighter future.</h1>
+  <div className={styles.buttons}>
+    <Link href="/companyCareers" className={styles.button}>Begin Session</Link>
+  </div>
+<hr />
+<Footer />
+</div>
     
   )
 }

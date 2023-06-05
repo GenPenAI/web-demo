@@ -1,0 +1,64 @@
+.researchOverview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  /* Adjust according to your needs */
+    padding: 0 20px;
+  }
+  
+  .quote {
+    flex: 1;
+    font-size: 5.5em;
+    text-align: right;
+    padding-right: 100px;
+  }
+
+  .quote2 {
+    flex: 1;
+    font-size: 5.5em;
+    text-align: left;
+    padding-right: 20px;
+  }
+  
+  .paragraphContainer {
+    flex: 2;
+    font-size: 2.0em;
+    padding-left: 20px;
+  }
+  
+  .paragraph {
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 2em;
+    margin: 20px 0;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #444;
+  }
+
+
+
+
+  
+  

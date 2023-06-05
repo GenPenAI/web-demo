@@ -20,6 +20,65 @@
     padding-right: 20px;
   }
   
+  .section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+    margin: 2rem auto;
+  }
+
+  .container {
+    flex: 1;
+    text-align: center;
+  }
+
+  .smallHeader{
+    flex: 1;
+    text-align: left;
+  }
+
+.sectionItem {
+    text-align: left;
+    margin-right: 2rem;
+  }
+  
+  .image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+  
+  .viewAll {
+    display: block;
+    text-align: right;
+    margin: 2rem auto;
+  }
+  .quoteSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* adjust this value as needed */
+  }
+  .quote3 {
+    flex: 1 1 50%; /* adjust these values as needed */
+    font-size: 1.5em; /* adjust this value as needed */
+    text-align: center;
+  }
+  
+  
+  .imageContainer {
+    flex: 1 1 50%; /* adjust these values as needed */
+  }
+  
+  .carrerImage {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
   .paragraphContainer {
     flex: 2;
     font-size: 2.0em;

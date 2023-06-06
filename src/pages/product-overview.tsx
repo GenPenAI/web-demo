@@ -124,15 +124,54 @@ const ProductOverview = () => {
 <hr />
 <div className={styles.quoteSection}>
   <blockquote className={styles.quote3}>
-    "Working at GenPen AI has brought <br /> me great fortune and wealth."
+    Ensuring <br /> responsible <br /> use of our<br /> tools.
   </blockquote>
   <div className={styles.imageContainer}>
     <img src="/logotri.png" alt="Career Image" className={styles.careerImage}/>
   </div>
 </div>
 <hr />
+<div className={styles.sectionBuilt}>
+      <h1 className={styles.header}>Built with GenPen</h1>
 
-  <h1 className={styles.title}>Start creating with GenPen AI's <br /> powerful tools.</h1>
+      <div className={styles.largeImagesBuilt}>
+        <div className={styles.imageContainer}>
+          <img src="/logotri.png" alt="Description of image 1" className={styles.largeImage} />
+          <p className={styles.imageCaption}>Your description for image 1.</p>
+        </div>
+        <div className={styles.imageContainerBuilt}>
+          <img src="/logotri.png" alt="Description of image 2" className={styles.largeImage} />
+          <p className={styles.imageCaption}>Your description for image 2.</p>
+        </div>
+      </div>
+
+      <div className={styles.section}>
+       <div className={styles.sectionItem}>
+        <Link href="/subpage1">
+          <img src="/logotri.png" alt="Link to subpage 1" className={styles.image} />
+        </Link>
+        </div>
+        <div className={styles.sectionItem}>
+        <Link href="/subpage2">
+          <img src="/logotri.png" alt="Link to subpage 2" className={styles.image} />
+        </Link>
+        </div>
+        <div className={styles.sectionItem}>
+        <Link href="/subpage3">
+          <img src="/logotri.png" alt="Link to subpage 3" className={styles.image} />
+        </Link>
+        </div>
+        <div className={styles.sectionItem}>
+        <Link href="/subpage4">
+          <img src="/logotri.png" alt="Link to subpage 4" className={styles.image} />
+        </Link>
+      </div>
+    </div>
+    </div>
+    <hr />
+
+
+  <h1 className={styles.titleEnd}>Start creating with GenPen AI's <br /> powerful tools.</h1>
   <div className={styles.buttons}>
     <Link href="https://genpen.io/login.xhtml" className={styles.button}>Get Started</Link>
     <Link href="/pricing" className={styles.button}>View pricing</Link>

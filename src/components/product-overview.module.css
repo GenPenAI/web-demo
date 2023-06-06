@@ -114,8 +114,48 @@
     background-color: #444;
   }
 
-  /* ... existing styles ... */
-
+  .sectionBuilt  {
+    width: 100%;
+  }
+  
+  .headerBuilt  {
+    text-align: left;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .largeImagesBuilt  {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .imageContainerBuilt  {
+    width: 45%; /* adjust as needed */
+  }
+  
+  .largeImageBuilt  {
+    width: 100%;
+  }
+  
+  .imageCaptionBuilt  {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
+  .smallImagesBuilt {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .smallImageBuilt {
+    width: 20%; /* adjusted width so 4 images can fit in one row */
+    height: auto;
+    cursor: pointer; /* changes the cursor to a hand when hovering over the images */
+    margin: 1%; /* added margin for some spacing */
+  }
+  
 
   
   

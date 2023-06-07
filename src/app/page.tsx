@@ -119,7 +119,7 @@ export default function Page() {
 <hr />
  <h1 className={styles.title}>Join us to make a brighter future.</h1>
   <div className={styles.buttons}>
-    <Link href="/companyCareers" className={styles.button}>Begin Session</Link>
+    <Link href="/companyCareers" className={styles.button}>View Opportunities</Link>
   </div>
 <hr />
 <Footer />

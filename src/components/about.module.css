@@ -1,0 +1,188 @@
+.researchOverview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  /* Adjust according to your needs */
+    padding: 0 20px;
+  }
+  
+  .quote {
+    flex: 1;
+    font-size: 5.5em;
+    text-align: right;
+    padding-right: 100px;
+  }
+
+  .quote2 {
+    flex: 1;
+    font-size: 5.5em;
+    text-align: left;
+    padding-right: 20px;
+  }
+  
+  .paragraphContainer {
+    flex: 2;
+    font-size: 2.0em;
+    padding-left: 20px;
+  }
+  
+  .paragraph {
+    margin-bottom: 20px;
+  }
+  .paragraph1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+  }
+  
+  .button {
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #444;
+  }
+  .button {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .button:hover {
+    background-color: #444;
+  }
+  
+  .section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+    margin: 2rem auto;
+  }
+  
+  .container {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .smallHeader {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .sectionItem {
+    text-align: left;
+    margin-right: 2rem;
+  }
+  
+  .image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+  
+  .viewAll {
+    display: block;
+    text-align: right;
+    margin: 2rem auto;
+  }
+  
+  .quoteSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .textContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+  }
+  .header {
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
+
+  .header1 {
+    font-size: 4em;
+    margin-bottom: 3.5em;
+  }
+  .header2 {
+    font-size: 4em;
+    margin-bottom: 4em;
+  }
+  
+  .header3 {
+    font-size: 4em;
+    margin-bottom: 4em;
+  }
+  
+  
+  .paragraph {
+    margin-bottom: 1em;
+  }
+  
+  .imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
+  
+  .careerImage {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .titleBottom {
+    text-align: center;
+    font-size: 2em;
+    padding: 20px 0;
+  }
+  
+  .buttonsBottom {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 0;
+  }
+  
+  .buttonBottom {
+    background-color: #blue;
+    border: none;
+    color: #757575;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .button:hover {
+    background-color: #blue;
+    color: white;
+  }
+  
+
+  
+  

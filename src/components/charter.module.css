@@ -1,0 +1,189 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .title {
+    text-align: left;
+    font-size: 7em;
+    width: 100%;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .button:hover {
+    background-color: #444;
+  }
+  
+  .section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+    margin: 2rem auto;
+  }
+  
+  .container {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .smallHeader {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .sectionItem {
+    text-align: left;
+    margin-right: 2rem;
+  }
+  
+  .image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+  
+  .viewAll {
+    display: block;
+    text-align: right;
+    margin: 2rem auto;
+  }
+  
+  .quoteSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 4em;
+  }
+  
+  .textContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+    font-size: 1em;
+  }
+  
+  .header {
+    font-size: 1em;
+    margin-bottom: 1em;
+  }
+  
+  .paragraph {
+    margin-bottom: 1em;
+    font-size: .5em;
+  }
+  
+
+  
+  .quote {
+    flex: 1;
+    font-size: 5.5em;
+    text-align: right;
+    padding-right: 100px;
+  }
+  
+  .buttons1 {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .imageContainer {
+    width: 50%;
+  }
+  
+  .image1 {
+    width: 100%;
+    height: auto;
+  }
+  
+  .paragraphContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: flex-end; /* Aligns items to the right */
+    width: 50%;
+
+  }
+  
+  .quote {
+    font-size: 5.5em;
+    text-align: right;
+  }
+  
+  .paragraph1 {
+    text-align: right;
+    font-size: 2em;
+  }
+  
+  .careerImage {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .table {
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
+  }
+  
+  .table th, .table td {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: #eee;
+  }
+
+  .sectionCharter {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    padding: 20px 0;
+  }
+  
+  .headerCharter {
+    width: 20%; /* Adjust as needed */
+    font-size: 1.5em;
+    text-align: left;
+  }
+  
+  .paragraphCharter {
+    width: 70%; /* Adjust as needed */
+    font-size: 1em;
+    text-align: justify;
+    margin-left: 10%;
+  }
+  
+  

@@ -117,7 +117,133 @@
     height: 100%;
     object-fit: cover; /* This will ensure the image scales correctly to fill its container */
   }
+  .threeImageSection {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
   
-
+  .imageListItem {
+    width: 33%;
+    text-align: center;
+  }
+  
+  .imageListItem img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .imageListItem ul {
+    list-style-type: disc;
+    text-align: left;
+    padding-left: 20px;
+  }
+  
+.table {
+    width: 100%;
+    max-width: 1440px;
+    border-collapse: collapse;
+  }
+  
+  .table th, .table td {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: #eee;
+  }
+  .sectionTable {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+    margin: 2rem auto;
+  }
+  .smallHeaderTable {
+    flex: 1;
+    text-align: left;
+  }
+  .titleCareers {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .buttonsCareers {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .buttonCareers {
+    color: #757575;
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 10px;
+    border: 1px solid #757575;
+    border-radius: 5px;
+  }
+  .sectionUpdates {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+    margin: 2rem auto;
+  }
+  .sectionItemUpdates {
+    text-align: left;
+    margin-right: 2rem;
+  }
+  .imageUpdates {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+  .sectionBuilt  {
+    width: 100%;
+  }
+  
+  .headerBuilt  {
+    text-align: left;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .largeImagesBuilt  {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .imageContainerBuilt  {
+    width: 45%; /* adjust as needed */
+  }
+  
+  .largeImageBuilt  {
+    width: 100%;
+  }
+  
+  .imageCaptionBuilt  {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
+  .smallImagesBuilt {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .smallImageBuilt {
+    width: 20%; /* adjusted width so 4 images can fit in one row */
+    height: auto;
+    cursor: pointer; /* changes the cursor to a hand when hovering over the images */
+    margin: 1%; /* added margin for some spacing */
+  }
+  
     
   

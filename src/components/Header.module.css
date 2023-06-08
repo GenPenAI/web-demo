@@ -27,7 +27,7 @@
   }
   
   .menuItem {
-    color: #757575;
+    color: #c8ff0096;
     position: relative;
     margin-right: 1rem;
     text-decoration: none;
@@ -41,12 +41,13 @@
     margin: 0;
     top: 100%;
     left: 0;
-    background-color: #212121;
+    background-color: #c8ff0096;
     text-decoration: none;
   }
   
   .menuItem:hover .submenu {
     display: block;
+    color: #c8ff0096;
   }
   
   .buttons {
@@ -55,8 +56,8 @@
   }
   
   .loginButton, .signUpButton {
-    color: #757575;
-    background-color: #FFFFFF;
+    color: #252525;
+    background-color: #c8ff0096;
     padding: 0.5rem 1rem;
     border-radius: 4px;
     text-decoration: none;

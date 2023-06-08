@@ -30,34 +30,26 @@
     margin-bottom: 20px;
   }
   
-  .title {
-    text-align: center;
-    font-size: 2em;
-    margin: 20px 0;
-  }
-  
   .buttons {
     display: flex;
-    justify-content: center;
-    margin: 20px 0;
+    justify-content: space-between;
+    width: 50%;
   }
   
   .button {
-    padding: 10px 20px;
     text-decoration: none;
-    text-align: center;
-    color: white;
-    background-color: blue;
-    border: none;
+    background-color: #c8ff0096;
+    color: #252525;
+    padding: 10px 20px;
     border-radius: 5px;
-    width: 100%;
+    transition: background-color 0.3s ease;
   }
   
   .button:hover {
     background-color: #444;
   }
 
-
+  /* ... existing styles ... */
 
 
   

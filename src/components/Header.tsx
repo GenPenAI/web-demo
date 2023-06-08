@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import styles from './Header.module.css';
 import { Connect } from '../components/Connect';
+import '../styles/globals.css';
 
 export const Header = () => (
   <header className={styles.header}>

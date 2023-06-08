@@ -77,13 +77,144 @@ const Careers = () => {
             <p>We know that well-being<br/> is at the center of everyday life. Our comprehensive benefits<br/> package supports you where<br/> you are, so you can take care<br/> of what matters today while<br/> confidently planning for the future.</p>
             </div>
             </div>
+            <div className={styles.threeImageSection}>
+              <div className={styles.imageListItem}>
+                <img src="/logotri.png" alt="Image 1 description" className={styles.image}/>
+                <ul>
+                  <li>Point 1</li>
+                  <li>Point 2</li>
+                  <li>Point 3</li>
+                </ul>
+              </div>
+              <div className={styles.imageListItem}>
+                <img src="logotri.png" alt="Image 2 description" className={styles.image}/>
+                <ul>
+                  <li>Point 1</li>
+                  <li>Point 2</li>
+                  <li>Point 3</li>
+                </ul>
+              </div>
+              <div className={styles.imageListItem}>
+                <img src="logotri.png" alt="Image 3 description" className={styles.image}/>
+                <ul>
+                  <li>Point 1</li>
+                  <li>Point 2</li>
+                  <li>Point 3</li>
+                </ul>
+              </div>
+            </div>
+            <hr/>
+            <div className={styles.quoteSection}>
+            <div className={styles.textContainer}>
+              <p className={styles.paragraph}>
+                Featured Roles
+              </p>
+            </div>
+            <div className={styles.imageContainer2}>
+            <p>We are constantly seeking<br/>talented individuals to join our<br/>team. Explore featured roles<br/>or view all open roles.</p>
+            </div>
+            </div>
+            <div className={styles.sectionTable}>
           
+            <table className={styles.table}>
+              <thead>
+                <tr>
+                  <th>Role</th>
+                  <th>Location</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                    <td>Junior AI Developer</td>
+                    <td>Remote</td>
+                    <td><Link href="https://discord.gg/9MN9smcFPZ">Apply Now</Link></td>
+                </tr>
+                <tr>
+                  <td>Marking Director</td>
+                  <td>Remote</td>
+                  <td><Link href="https://discord.gg/9MN9smcFPZ">Apply Now</Link></td>
+                </tr>
+                <tr>
+                  <td>Junior Web Developer</td>
+                  <td>Remote</td>
+                  <td><Link href="https://discord.gg/9MN9smcFPZ">Apply Now</Link></td>
+                </tr>
+                <tr>
+                  <td>Sales Specialist</td>
+                  <td>Remote</td>
+                  <td><Link href="https://discord.gg/9MN9smcFPZ">Apply Now</Link></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <hr/>
+          <div className={styles.quoteSection}>
+            <div className={styles.textContainer}>
+          
+              <p className={styles.paragraph}>
+                Pricing<br />from basic to<br />comprehensive
+              </p>
+              
+              <Link href="" className={styles.link}>Read about GenPen AI Internship</Link>
+            </div>
+            <div className={styles.imageContainer}>
+              <img src="/logotri.png" alt="Career Image" className={styles.careerImage}/>
+            </div>
+          </div>
+          <hr />
+          
+          <div className={styles.sectionBuilt}>
+                  <h1 className={styles.header}>Life at GenPen AI</h1>
+
+                  <div className={styles.largeImagesBuilt}>
+                    <div className={styles.imageContainerBuilt}>
+                      <img src="/logotri.png" alt="Description of image 1" className={styles.largeImageBuilt} />
+                      <p className={styles.imageCaption}>Your description for image 1.</p>
+                    </div>
+                    <div className={styles.imageContainerBuilt}>
+                      <img src="/logotri.png" alt="Description of image 2" className={styles.largeImagesBuilt} />
+                      <p className={styles.imageCaption}>Your description for image 2.</p>
+                    </div>
+              </div>
+              </div>
+          
+          <hr />
+          <div className={styles.quoteSection2}>
+            <p className={styles.quote2}>
+              "This is a quote that takes up 50% of the viewport height"
+            </p>
+          </div>
+
+          <hr />
+          
+          <h3>Latest Updates</h3>
+                <div className={styles.sectionUpdates}>
+            <div className={styles.sectionItemUpdates}>
+              <img src="/logotri.png" alt="Image 1" className={styles.imageUpdates}/>
+              <Link href="/link/to/post1">Blog post 1</Link>
+            </div>
+            <div className={styles.sectionItemUpdates}>
+              <img src="/logotri.png" alt="Image 2" className={styles.imageUpdates}/>
+              <Link href="/link/to/post2">Blog post 2</Link>
+            </div>
+            <div className={styles.sectionItemUpdates}>
+              <img src="/logotri.png" alt="Image 3" className={styles.imageUpdates}/>
+              <Link  href="/link/to/post3">Blog post 3</Link>
+            </div>
+            <div className={styles.sectionItemUpdates}>
+              <img src="/logotri.png" alt="Image 4" className={styles.imageUpdates}/>
+              <Link href="/link/to/post4">Blog post 4</Link>
+            </div>
+          </div>
           
 
-
-
-
-
+          <hr />
+                <h1 className={styles.titleCareers}>Join us to make a brighter future.</h1>
+            <div className={styles.buttonsCareers}>
+              <Link href="/companyCareers" className={styles.buttonCareers}>View Opportunities</Link>
+            </div>
+          <hr />
           <Footer />
       </div>
   );

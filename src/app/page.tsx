@@ -12,7 +12,7 @@ export default function Page() {
       <div className={styles.page}>
       <h1 className={styles.title}>Introducing GenPen IDE for Remote Desktop</h1>
       <div className={styles.buttons}>
-        <Link href="https://genpen.io/login.xhtml" className={styles.button}>Begin Session
+        <Link href="https://genpen.io/login.xhtml" className={styles.button}>Begin<br/>Session
         </Link>
         <Link href="https://www.youtube.com/@genpenai"
           className={styles.button}>The Making of GenPen AI
@@ -22,15 +22,15 @@ export default function Page() {
       <div className={styles.section}>
         <div className={styles.container}>
           <h2 className={styles.smallHeader}>Development Costs <br />Should be Black & <br /> White</h2>
-          <Link href="./components/companyPricing"> Learn about our Pricing</Link>
+          <Link href="./pricing"> Learn about our Pricing</Link>
         </div>
         <div className={styles.container}>
           <h2 className={styles.smallHeader}>Enterprise Scale <br /> REST ful Auto- <br />Genesis</h2>
-          <Link href="./components/researchOverview">Learn about our Research</Link>
+          <Link href="./research-overview">Learn about our Research</Link>
         </div>
         <div className={styles.container}>
           <h2 className={styles.smallHeader}>Beginning the Basis <br /> for AI Polling with <br />Human Input</h2>
-          <Link href="./components/researchIndex">Learn about our Patents</Link>
+          <Link href="./research-index">Learn about our Patents</Link>
         </div>
         
       </div>
@@ -101,9 +101,9 @@ export default function Page() {
 <hr />
  <h1 className={styles.title}>Join us to make a brighter future.</h1>
   <div className={styles.buttons}>
-    <Link href="/companyCareers" className={styles.button}>View Opportunities</Link>
+    <Link href="./careers" className={styles.button}>View Opportunities</Link>
   </div>
-<hr />
+
 <Footer />
 </div>
     

@@ -60,12 +60,14 @@ const Pricing = () => {
 
           <div>
           <h1 className={styles.titleEnd}>Start creating with GenPen AI's <br /> powerful tools.</h1>
+          <div className={styles.buttonsContainerBottom}>
          <div className={styles.buttons1}>
-    <Link href="https://genpen.io/login.xhtml" className={styles.button}>Get Started</Link>
-    <Link href="/pricing" className={styles.button}>View pricing</Link>
-      </div>
-      </div>
-      <hr />
+        <Link href="https://genpen.io/signup.xhtml" className={styles.button}>Sign Up</Link>
+        <Link href="/https://genpen.io/login.xhtmlg" className={styles.button}>Login</Link>
+        </div>
+        </div>
+        <hr />
+         </div>
 
           <Footer />
       </div>

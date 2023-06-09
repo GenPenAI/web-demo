@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;  /* Adjust according to your needs */
+    height: 100vh; 
     padding: 0 20px;
   }
   
@@ -33,24 +33,29 @@
   .buttons {
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 100%;
   }
   
   .button {
-    text-decoration: none;
-    background-color: #c8ff0096;
     color: #252525;
-    padding: 10px 20px;
+    background-color: #c8ff0096;
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 10px;
+    border: 1px solid #757575;
     border-radius: 5px;
-    transition: background-color 0.3s ease;
+    text-align: center;
+    width: 100%;
   }
   
   .button:hover {
     background-color: #444;
   }
 
-  /* ... existing styles ... */
+.title {
+    text-align: center;
 
+}
 
   
   

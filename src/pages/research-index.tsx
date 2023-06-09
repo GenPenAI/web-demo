@@ -1,5 +1,5 @@
 import '../styles/globals.css';
-import styles from '../components/research-index.module.css'
+import styles from '../components/modules/research-index.module.css'
 import Link from 'next/link'
 import { Header } from '../components/Header'
 import { Footer } from '../components/Footer'

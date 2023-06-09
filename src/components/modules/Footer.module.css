@@ -1,0 +1,79 @@
+.footer {
+  background-color: #c8ff0096;
+  color: #757575;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  flex-wrap: wrap;
+}
+
+.logo {
+  height: 200px;
+}
+
+.nav {
+  color: #757575;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap; 
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #757575;
+  text-decoration: none;
+}
+
+.menuItem {
+  color: #757575;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.loginButton, .signUpButton {
+  color: #212121;
+  background-color: #c8ff0096;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.titleFooter {
+  width: 100%; 
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.socialFooter {
+  display: flex;
+  align-items: center; 
+}
+
+.titleFooter h1, .socialFooter a {
+  color: #212121; 
+  margin: 0.5rem; 
+  text-decoration: none;
+}
+
+.titleFooter a {
+  color: #212121; 
+  margin: 0.5rem; 
+  text-decoration: none;
+}
+

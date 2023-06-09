@@ -3,7 +3,7 @@ import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
 import Link from 'next/link';
 import '../styles/globals.css';
-import styles from '../components/research-overview.module.css';
+import styles from '../components/modules/research-overview.module.css';
 
 const ResearchOverview = () => {
   return (

@@ -1,8 +1,7 @@
 // components/Header.tsx
 
 import Link from 'next/link';
-import styles from './Header.module.css';
-import { Connect } from '../components/Connect';
+import styles from './modules/Header.module.css';
 import '../styles/globals.css';
 
 export const Header = () => (

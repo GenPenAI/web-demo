@@ -1,6 +1,7 @@
+import '../styles/globals.css';
 import { Header } from '../components/Header'
 import { Footer } from '../components/Footer'
-import styles from '../components/aide.module.css'
+import styles from '../components/modules/aide.module.css'
 import Link from 'next/link'
 
 const ScratchPad = () => {

@@ -1,7 +1,7 @@
 // components/Header.tsx
 
 import Link from 'next/link';
-import styles from './Header.module.css';
+import styles from './modules/Footer.module.css';
 
 
 export const Footer = () => (
@@ -21,8 +21,7 @@ export const Footer = () => (
         <li className={styles.menuItem}>
           <a href="/product-overview">Product</a>
           <ul className={styles.submenu}>
-            <li><a href="/product-overview">Overview</a></li>
-            <li><a href="/scratchpad">ScratchPad</a></li>
+            <li><a href="/product-overview">Overview</a></li> <li><a href="/scratchpad">ScratchPad</a></li>
             <li><a href="/journal">Journal</a></li>
             <li><a href="/ai1de">AI-IDE</a></li>
             <li><a href="/holly">Holly</a></li>
@@ -56,6 +55,20 @@ export const Footer = () => (
       </Link>
       <Link href="https://genpen.io/signup.xhtml" className={styles.signUpButton}>Sign Up
       </Link>
+    </div>
+    <hr/>
+    <div className={styles.titleFooter}>
+    <div className={styles.socialFooter}>
+        <h1>GenPen AI © 2022-2023</h1>
+        <a href="https://twitter.com/GenPenAI" className={styles.socialFooter}>Twitter</a>
+        <a href="https://www.youtube.com/@genpenai" className={styles.socialFooter}>Youtube</a>
+        <a href="https://github.com/genpenai" className={styles.socialFooter}>Github</a>
+        <a href="https://linkedin.com/genpenai" className={styles.socialFooter}>Linkedin</a>
+        </div>
+        <br/>
+        <a href="/terms" className={styles.titleFooter}>Terms & Policies</a>
+        <a href="/privacy" className={styles.titleFooter}>Privacy Policy</a>
+        <a href="/brand" className={styles.titleFooter}>Brand Guidelines</a>
     </div>
   </footer>
 );

@@ -13,6 +13,7 @@
 }
 
 .buttons {
+  background-color: #c8ff0096;
   display: flex;
   justify-content: space-around;
   width: 75%;
@@ -23,8 +24,8 @@
 .button {
   padding: 10px 20px;
   text-decoration: none;
-  color: white;
-  background-color: blue;
+  color: #252525;
+  background-color: #c8ff0096;
   border: none;
   border-radius: 5px;
 }

@@ -2,58 +2,59 @@
 
 import Link from 'next/link';
 import styles from './Header.module.css';
-import { Connect } from '../components/Connect';
+
 
 export const Footer = () => (
   <footer className={styles.footer}>
-    <Link href="/">
+    <a href="/">
       <img src="/logo.png" alt="Logo" className={styles.logo} />
-    </Link>
+    </a>
     <nav className={styles.nav}>
       <ul className={styles.menu}>
         <li className={styles.menuItem}>
-          <Link href="/research">Research</Link>
+          <a href="/research-overview">Research</a>
           <ul className={styles.submenu}>
-            <li><Link href="/overview">Overview</Link></li>
-            <li><Link href="/index">Index</Link></li>
+            <li><a href="/research-overview">Overview</a></li>
+            <li><a href="/research-index">Index</a></li>
           </ul>
         </li>
         <li className={styles.menuItem}>
-          <Link href="/product">Product</Link>
+          <a href="/product-overview">Product</a>
           <ul className={styles.submenu}>
-            <li><Link href="/overview">Overview</Link></li>
-            <li><Link href="/journal">Journal</Link></li>
-            <li><Link href="/ai-ide">AI-IDE</Link></li>
-            <li><Link href="/holly">Holly</Link></li>
-            <li><Link href="/customer-stories">Customer Stories</Link></li>
-            <li><Link href="/pricing">Pricing</Link></li>
+            <li><a href="/product-overview">Overview</a></li>
+            <li><a href="/scratchpad">ScratchPad</a></li>
+            <li><a href="/journal">Journal</a></li>
+            <li><a href="/ai1de">AI-IDE</a></li>
+            <li><a href="/holly">Holly</a></li>
+            <li><a href="/customer-stories">Customer Stories</a></li>
+            <li><a href="/pricing">Pricing</a></li>
           </ul>
         </li>
         <li className={styles.menuItem}>
-          <Link href="/developers">Developers</Link>
+          <a href="/developer-overview">Developers</a>
           <ul className={styles.submenu}>
-            <li><Link href="/overview">Overview</Link></li>
-            <li><Link href="/docs">Docs</Link></li>
-            <li><Link href="/api-reference">API Reference</Link></li>
-            <li><Link href="/examples">Examples</Link></li>
+            <li><a href="/developer-overview">Overview</a></li>
+            <li><a href="/developer-docs">Docs</a></li>
+            <li><a href="/developer-api">API Reference</a></li>
+            <li><a href="/developer-examples">Examples</a></li>
           </ul>
         </li>
         <li className={styles.menuItem}>
-          <Link href="/company">Company</Link>
+          <a href="/about">Company</a>
           <ul className={styles.submenu}>
-            <li><Link href="/about">About</Link></li>
-            <li><Link href="/blog">Blog</Link></li>
-            <li><Link href="/careers">Careers</Link></li>
-            <li><Link href="/charter">Charter</Link></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/careers">Careers</a></li>
+            <li><a href="/charter">Charter</a></li>
           </ul>
         </li>
       </ul>
     </nav>
  
     <div className={styles.buttons}>
-      <Link href="/login" className={styles.loginButton}>Login
+      <Link href="https://genpen.io/login.xhtml" className={styles.loginButton}>Login
       </Link>
-      <Link href="/signup" className={styles.signUpButton}>Sign Up
+      <Link href="https://genpen.io/signup.xhtml" className={styles.signUpButton}>Sign Up
       </Link>
     </div>
   </footer>

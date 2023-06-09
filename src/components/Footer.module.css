@@ -1,12 +1,13 @@
-/* Header.module.css */
-
 .footer {
-    background-color: #212121;
+    background-color: #c8ff0096;
     color: #757575;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: 3rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
   }
   
   .logo {

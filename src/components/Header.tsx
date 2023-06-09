@@ -25,7 +25,7 @@ export const Header = () => (
             <li><a href="/product-overview">Overview</a></li>
             <li><a href="/scratchpad">ScratchPad</a></li>
             <li><a href="/journal">Journal</a></li>
-            <li><a href="/ai1de">AI-IDE</a></li>
+            <li><a href="/aide">AIDE</a></li>
             <li><a href="/holly">Holly</a></li>
             <li><a href="/customer-stories">Customer Stories</a></li>
             <li><a href="/pricing">Pricing</a></li>

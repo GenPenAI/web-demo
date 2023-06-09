@@ -55,8 +55,9 @@
   .button {
     padding: 10px 20px;
     text-decoration: none;
-    color: white;
-    background-color: blue;
+    color: #252525
+    ;
+    background-color: #c8ff0096;
     border: none;
     border-radius: 5px;
   }
@@ -161,12 +162,13 @@
     justify-content: center;
     width: 100%;
     padding: 20px 0;
+    color: #c8ff0096;
   }
   
   .buttonBottom {
-    background-color: #blue;
+    background-color: #c8ff0096;
     border: none;
-    color: #757575;
+    color: #252525;
     padding: 10px 0;
     text-align: center;
     text-decoration: none;

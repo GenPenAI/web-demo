@@ -54,8 +54,8 @@
     padding: 10px 20px;
     border: none;
     border-radius: 4px;
-    background-color: #000;
-    color: #fff;
+    background-color: #c8ff0096;
+    color: #252525;
     font-size: 16px;
     cursor: pointer;
   }
@@ -103,8 +103,8 @@
     padding: 10px 20px;
     text-decoration: none;
     text-align: center;
-    color: white;
-    background-color: blue;
+    color: #252525;
+    background-color: #c8ff0096;
     border: none;
     border-radius: 5px;
     width: 100%;

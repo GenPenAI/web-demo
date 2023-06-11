@@ -29,8 +29,8 @@ const About = () => {
               <p className={styles.paragraph1}>
                 Our mission is to ensure all<br/>humans have access to the<br/>benefit of artificial<br/>intelligence enhancement.
               </p>
-              <Link href="/blog/plan-for-aie" className={styles.button}>Read our Plan for AIE</Link>
-              <Link href="/charter" className={styles.button}>Read our Charter</Link>
+              <a href="/blog/plan-for-aie" className={styles.button}>Read our Plan for AIE</a>
+              <a href="/charter" className={styles.button}>Read our Charter</a>
 
             </div>
             <div className={styles.imageContainer}>
@@ -44,19 +44,19 @@ const About = () => {
                 <div className={styles.section}>
             <div className={styles.sectionItem}>
               <img src="/logotri.png" alt="Image 1" className={styles.image}/>
-              <Link href="/link/to/post1">Blog post 1</Link>
+              <Link href="/link/to/post1" className={styles.button}>Blog post 1</Link>
             </div>
             <div className={styles.sectionItem}>
               <img src="/logotri.png" alt="Image 2" className={styles.image}/>
-              <Link href="/link/to/post2">Blog post 2</Link>
+              <Link href="/link/to/post2" className={styles.button}>Blog post 2</Link>
             </div>
             <div className={styles.sectionItem}>
               <img src="/logotri.png" alt="Image 3" className={styles.image}/>
-              <Link  href="/link/to/post3">Blog post 3</Link>
+              <Link  href="/link/to/post3" className={styles.button}>Blog post 3</Link>
             </div>
             <div className={styles.sectionItem}>
               <img src="/logotri.png" alt="Image 4" className={styles.image}/>
-              <Link href="/link/to/post4">Blog post 4</Link>
+              <Link href="/link/to/post4" className={styles.button}>Blog post 4</Link>
             </div>
           </div>
 
@@ -65,19 +65,19 @@ const About = () => {
                 <div className={styles.section}>
             <div className={styles.sectionItem}>
               <img src="/logotri.png" alt="Image 1" className={styles.image}/>
-              <Link href="/link/to/post1">Blog post 1</Link>
+              <Link href="/link/to/post1" className={styles.button}>Blog post 1</Link>
             </div>
             <div className={styles.sectionItem}>
               <img src="/logotri.png" alt="Image 2" className={styles.image}/>
-              <Link href="/link/to/post2">Blog post 2</Link>
+              <Link href="/link/to/post2" className={styles.button}>Blog post 2</Link>
             </div>
             <div className={styles.sectionItem}>
               <img src="/logotri.png" alt="Image 3" className={styles.image}/>
-              <Link  href="/link/to/post3">Blog post 3</Link>
+              <Link  href="/link/to/post3" className={styles.button}>Blog post 3</Link>
             </div>
             <div className={styles.sectionItem}>
               <img src="/logotri.png" alt="Image 4" className={styles.image}/>
-              <Link href="/link/to/post4">Blog post 4</Link>
+              <Link href="/link/to/post4" className={styles.button}>Blog post 4</Link>
             </div>
           </div>
           <hr />

@@ -58,17 +58,17 @@ export const Footer = () => (
     </div>
     <hr/>
     <div className={styles.titleFooter}>
-    <div className={styles.socialFooter}>
+   
         <h1>GenPen AI © 2022-2023</h1>
+        <div className={styles.socialFooter}>
         <a href="https://twitter.com/GenPenAI" className={styles.socialFooter}>Twitter</a>
         <a href="https://www.youtube.com/@genpenai" className={styles.socialFooter}>Youtube</a>
         <a href="https://github.com/genpenai" className={styles.socialFooter}>Github</a>
         <a href="https://linkedin.com/genpenai" className={styles.socialFooter}>Linkedin</a>
+        <a href="/terms" className={styles.titleFooter}>Terms</a>
+        <a href="/privacy" className={styles.titleFooter}>Policy</a>
+        <a href="/brand" className={styles.titleFooter}>Brand</a>
         </div>
-        <br/>
-        <a href="/terms" className={styles.titleFooter}>Terms & Policies</a>
-        <a href="/privacy" className={styles.titleFooter}>Privacy Policy</a>
-        <a href="/brand" className={styles.titleFooter}>Brand Guidelines</a>
     </div>
   </footer>
 );

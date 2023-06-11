@@ -6,7 +6,7 @@ import '../styles/globals.css';
 
 export const Header = () => (
   <header className={styles.header}>
-    <a href="/">
+    <a href="/home">
       <img src="/logo.png" alt="Logo" className={styles.logo} />
     </a>
     <nav className={styles.nav}>

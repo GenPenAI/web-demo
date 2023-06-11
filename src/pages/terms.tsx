@@ -3,6 +3,8 @@ import { Footer } from '../components/Footer'
 import styles from '../components/modules/charter.module.css'
 import Link from 'next/link'
 import '../styles/globals.css';
+import React from 'react';
+
 const Terms = () => {
   return (
       <div>

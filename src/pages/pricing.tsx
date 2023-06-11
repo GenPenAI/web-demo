@@ -63,7 +63,7 @@ const Pricing = () => {
           <div className={styles.buttonsContainerBottom}>
          <div className={styles.buttons1}>
         <Link href="https://genpen.io/signup.xhtml" className={styles.button}>Sign Up</Link>
-        <Link href="/https://genpen.io/login.xhtmlg" className={styles.button}>Login</Link>
+        <Link href="https://genpen.io/login.xhtml" className={styles.button}>Login</Link>
         </div>
         </div>
         <hr />

@@ -4,18 +4,18 @@ import styles from '../components/modules/journal.module.css'
 import Link from 'next/link'
 import '../styles/globals.css';
 
-const ScratchPad = () => {
+const Journal = () => {
     return (
         <div>
             <Header />
             <div className={styles.page}>
              <h1 className={styles.title}>Commit Context to <br />Memory and Keep Chats in<br />Check with Simple Pricing</h1>
             <div className={styles.buttons}>
-            <Link href="https://genpen.io/login.xhtml" className={styles.button}>Try on the Web
-            </Link>
-             <Link href="https://www.youtube.com/@genpenai"
+            <a href="https://genpen.io/login.xhtml" className={styles.button}>Try on the Web
+            </a>
+             <a href="https://www.youtube.com/@genpenai"
              className={styles.button}>Learn more about GenPen
-             </Link>
+             </a>
              </div>
             </div>
             <hr />
@@ -23,19 +23,19 @@ const ScratchPad = () => {
             <div className={styles.section}>
             <div className={styles.sectionItem}>
               <img src="/logotri.png" alt="Image 1" className={styles.image}/>
-              <Link href="/link/to/post1">Blog post 1</Link>
+              <a href="/link/to/post1" className={styles.button}>Blog post 1</a>
             </div>
             <div className={styles.sectionItem}>
               <img src="/logotri.png" alt="Image 2" className={styles.image}/>
-              <Link href="/link/to/post2">Blog post 2</Link>
+              <a href="/link/to/post2" className={styles.button}>Blog post 2</a>
             </div>
             <div className={styles.sectionItem}>
               <img src="/logotri.png" alt="Image 3" className={styles.image}/>
-              <Link  href="/link/to/post3">Blog post 3</Link>
+              <a  href="/link/to/post3" className={styles.button}>Blog post 3</a>
             </div>
             <div className={styles.sectionItem}>
               <img src="/logotri.png" alt="Image 4" className={styles.image}/>
-              <Link href="/link/to/post4">Blog post 4</Link>
+              <a href="/link/to/post4" className={styles.button}>Blog post 4</a>
             </div>
           </div>
           <hr />
@@ -45,7 +45,7 @@ const ScratchPad = () => {
               <p className={styles.paragraph}>
                 Leverage our enhanced<br />models with memory and<br />provisioning inside your<br />account.
               </p>
-              <Link href="https://genpen.io/login.xhtml" className={styles.button}>Try on the web</Link>
+              <a href="https://genpen.io/login.xhtml" className={styles.button}>Try on the web</a>
             </div>
             <div className={styles.imageContainer}>
               <img src="/logotri.png" alt="Career Image" className={styles.careerImage}/>
@@ -66,17 +66,17 @@ const ScratchPad = () => {
                 <tr>
                     <td>Images</td>
                     <td>You</td>
-                    <td><Link href="https://genpen.io/login.xhtml">Try Now</Link></td>
+                    <td><a href="https://genpen.io/login.xhtml" className={styles.button}>Try Now</a></td>
                 </tr>
                 <tr>
                   <td>Code</td>
                   <td>You</td>
-                  <td><Link href="https://genpen.io/login.xhtml">Try Now</Link></td>
+                  <td><a href="https://genpen.io/login.xhtml" className={styles.button}>Try Now</a></td>
                 </tr>
                 <tr>
                   <td>Text</td>
                   <td>You</td>
-                  <td><Link href="https://genpen.io/login.xhtml">Try Now</Link></td>
+                  <td><a href="https://genpen.io/login.xhtml" className={styles.button}>Try Now</a></td>
                 </tr>
               </tbody>
             </table>
@@ -87,4 +87,4 @@ const ScratchPad = () => {
     );
 }
 
-export default ScratchPad;
+export default Journal;

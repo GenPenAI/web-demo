@@ -12,40 +12,40 @@ export const Header = () => (
     <nav className={styles.nav}>
       <ul className={styles.menu}>
         <li className={styles.menuItem}>
-          <a href="/research-overview">Research</a>
+          <a href="/research-overview" className={styles.button}>Research</a>
           <ul className={styles.submenu}>
-            <li><a href="/research-overview">Overview</a></li>
-            <li><a href="/research-index">Index</a></li>
+            <li><a href="/research-overview" className={styles.button}>Overview</a></li>
+            <li><a href="/research-index" className={styles.button}>Index</a></li>
           </ul>
         </li>
         <li className={styles.menuItem}>
-          <a href="/product-overview">Product</a>
+          <a href="/product-overview" className={styles.button}>Product </a>
           <ul className={styles.submenu}>
-            <li><a href="/product-overview">Overview</a></li>
-            <li><a href="/scratchpad">ScratchPad</a></li>
-            <li><a href="/journal">Journal</a></li>
-            <li><a href="/aide">AIDE</a></li>
-            <li><a href="/holly">Holly</a></li>
-            <li><a href="/customer-stories">Customer Stories</a></li>
-            <li><a href="/pricing">Pricing</a></li>
+            <li><a href="/product-overview" className={styles.button}>Overview</a></li>
+            <li><a href="/scratchpad" className={styles.button}>ScratchPad</a></li>
+            <li><a href="/journal" className={styles.button}>Journal</a></li>
+            <li><a href="/aide" className={styles.button}>AIDE</a></li>
+            <li><a href="/holly" className={styles.button}>Holly</a></li>
+            <li><a href="/customer-stories" className={styles.button}>Customer Stories</a></li>
+            <li><a href="/pricing" className={styles.button}>Pricing</a></li>
           </ul>
         </li>
         <li className={styles.menuItem}>
-          <a href="/developer-overview">Developers</a>
+          <a href="/developer-overview" className={styles.button}>Developers</a>
           <ul className={styles.submenu}>
-            <li><a href="/developer-overview">Overview</a></li>
-            <li><a href="/developer-docs">Docs</a></li>
-            <li><a href="/developer-api">API Reference</a></li>
-            <li><a href="/developer-examples">Examples</a></li>
+            <li><a href="/developer-overview" className={styles.button}>Overview</a></li>
+            <li><a href="/developer-docs" className={styles.button}>Docs</a></li>
+            <li><a href="/developer-api" className={styles.button}>API Reference</a></li>
+            <li><a href="/developer-examples" className={styles.button}>Examples</a></li>
           </ul>
         </li>
         <li className={styles.menuItem}>
-          <a href="/about">Company</a>
+          <a href="/about" className={styles.button}>Company</a>
           <ul className={styles.submenu}>
-            <li><a href="/about">About</a></li>
-            <li><a href="/blog">Blog</a></li>
-            <li><a href="/careers">Careers</a></li>
-            <li><a href="/charter">Charter</a></li>
+            <li><a href="/about" className={styles.button}>About</a></li>
+            <li><a href="/blog" className={styles.button}>Blog</a></li>
+            <li><a href="/careers" className={styles.button}>Careers</a></li>
+            <li><a href="/charter" className={styles.button}>Charter</a></li>
           </ul>
         </li>
       </ul>

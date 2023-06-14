@@ -128,22 +128,22 @@ const Careers = () => {
                 <tr>
                     <td>Junior AI Developer</td>
                     <td>Remote</td>
-                    <td><Link href="https://discord.gg/9MN9smcFPZ">Apply Now</Link></td>
+                    <td><Link href="https://discord.gg/9MN9smcFPZ" className={styles.button}>Apply Now</Link></td>
                 </tr>
                 <tr>
                   <td>Marking Director</td>
                   <td>Remote</td>
-                  <td><Link href="https://discord.gg/9MN9smcFPZ">Apply Now</Link></td>
+                  <td><Link href="https://discord.gg/9MN9smcFPZ" className={styles.button}>Apply Now</Link></td>
                 </tr>
                 <tr>
                   <td>Junior Web Developer</td>
                   <td>Remote</td>
-                  <td><Link href="https://discord.gg/9MN9smcFPZ">Apply Now</Link></td>
+                  <td><Link href="https://discord.gg/9MN9smcFPZ" className={styles.button}>Apply Now</Link></td>
                 </tr>
                 <tr>
                   <td>Sales Specialist</td>
                   <td>Remote</td>
-                  <td><Link href="https://discord.gg/9MN9smcFPZ">Apply Now</Link></td>
+                  <td><Link href="https://discord.gg/9MN9smcFPZ" className={styles.button}>Apply Now</Link></td>
                 </tr>
               </tbody>
             </table>
@@ -156,7 +156,7 @@ const Careers = () => {
                 Pricing<br />from basic to<br />comprehensive
               </p>
               
-              <Link href="" className={styles.link}>Read about GenPen AI Internship</Link>
+              <a href="" className={styles.button}>Read about GenPen AI Internship</a>
             </div>
             <div className={styles.imageContainer}>
               <img src="/logotri.png" alt="Career Image" className={styles.careerImage}/>
@@ -192,19 +192,19 @@ const Careers = () => {
                 <div className={styles.sectionUpdates}>
             <div className={styles.sectionItemUpdates}>
               <img src="/logotri.png" alt="Image 1" className={styles.imageUpdates}/>
-              <Link href="/link/to/post1">Blog post 1</Link>
+              <Link href="/link/to/post1" className={styles.button}>Blog post 1</Link>
             </div>
             <div className={styles.sectionItemUpdates}>
               <img src="/logotri.png" alt="Image 2" className={styles.imageUpdates}/>
-              <Link href="/link/to/post2">Blog post 2</Link>
+              <Link href="/link/to/post2" className={styles.button}>Blog post 2</Link>
             </div>
             <div className={styles.sectionItemUpdates}>
               <img src="/logotri.png" alt="Image 3" className={styles.imageUpdates}/>
-              <Link  href="/link/to/post3">Blog post 3</Link>
+              <Link  href="/link/to/post3" className={styles.button}>Blog post 3</Link>
             </div>
             <div className={styles.sectionItemUpdates}>
               <img src="/logotri.png" alt="Image 4" className={styles.imageUpdates}/>
-              <Link href="/link/to/post4">Blog post 4</Link>
+              <Link href="/link/to/post4" className={styles.button}>Blog post 4</Link>
             </div>
           </div>
           
@@ -212,7 +212,7 @@ const Careers = () => {
           <hr />
                 <h1 className={styles.titleCareers}>Join us to make a brighter future.</h1>
             <div className={styles.buttonsCareers}>
-              <Link href="/companyCareers" className={styles.buttonCareers}>View Opportunities</Link>
+              <Link href="/companyCareers" className={styles.button}>View Opportunities</Link>
             </div>
           <hr />
           <Footer />

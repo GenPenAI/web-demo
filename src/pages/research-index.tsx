@@ -137,7 +137,7 @@ const ResearchIndex = () => {
                 <td>{paper.category}</td>
                 <td>
                   <Link href={paper.link}
-                className={styles.link}>Read Paper
+                className={styles.button}>Read Paper
                   </Link>
                 </td>
               </tr>

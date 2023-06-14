@@ -1,5 +1,3 @@
-// components/Header.tsx
-
 import Link from 'next/link';
 import styles from './modules/Footer.module.css';
 
@@ -12,16 +10,17 @@ export const Footer = () => (
     <nav className={styles.nav}>
       <ul className={styles.menu}>
         <li className={styles.menuItem}>
-          <a href="/research-overview">Research</a>
+          <a href="/research-overview" className={styles.button}>Research</a>
           <ul className={styles.submenu}>
-            <li><a href="/research-overview">Overview</a></li>
-            <li><a href="/research-index">Index</a></li>
+            <li><a href="/research-overview" className={styles.button}>Overview</a></li>
+            <li><a href="/research-index" className={styles.button}>Index</a></li>
           </ul>
         </li>
         <li className={styles.menuItem}>
           <a href="/product-overview">Product</a>
           <ul className={styles.submenu}>
-            <li><a href="/product-overview">Overview</a></li> <li><a href="/scratchpad">ScratchPad</a></li>
+            <li><a href="/product-overview">Overview</a></li> 
+            <li><a href="/scratchpad">ScratchPad</a></li>
             <li><a href="/journal">Journal</a></li>
             <li><a href="/ai1de">AI-IDE</a></li>
             <li><a href="/holly">Holly</a></li>

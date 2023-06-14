@@ -4,7 +4,7 @@ import { Footer } from '../components/Footer'
 import styles from '../components/modules/aide.module.css'
 import Link from 'next/link'
 
-const ScratchPad = () => {
+const AIDE = () => {
     return (
         <div>
             <Header />
@@ -23,19 +23,19 @@ const ScratchPad = () => {
                 <div className={styles.section}>
             <div className={styles.sectionItem}>
                 <img src="/logotri.png" alt="Image 1" className={styles.image}/>
-                <Link href="/link/to/post1">Blog post 1</Link>
+                <a href="/link/to/post1" className={styles.button}>Blog post 1</a>
             </div>
             <div className={styles.sectionItem}>
                 <img src="/logotri.png" alt="Image 2" className={styles.image}/>
-                <Link href="/link/to/post2">Blog post 2</Link>
+                <a href="/link/to/post2" className={styles.button}>Blog post 2</a>
             </div>
             <div className={styles.sectionItem}>
                 <img src="/logotri.png" alt="Image 3" className={styles.image}/>
-                <Link  href="/link/to/post3">Blog post 3</Link>
+                <a  href="/link/to/post3" className={styles.button}>Blog post 3</a>
             </div>
             <div className={styles.sectionItem}>
                 <img src="/logotri.png" alt="Image 4" className={styles.image}/>
-                <Link href="/link/to/post4">Blog post 4</Link>
+                <a href="/link/to/post4" className={styles.button}>Blog post 4</a>
             </div>
             </div>
             <hr />
@@ -66,22 +66,22 @@ const ScratchPad = () => {
                 <tr>
                     <td>Images</td>
                     <td>You</td>
-                    <td><Link href="https://genpen.io/login.xhtml">Try Now</Link></td>
+                    <td><Link href="https://genpen.io/login.xhtml" className={styles.button}>Try Now</Link></td>
                 </tr>
                 <tr>
                     <td>Code</td>
                     <td>You</td>
-                    <td><Link href="https://genpen.io/login.xhtml">Try Now</Link></td>
+                    <td><Link href="https://genpen.io/login.xhtml" className={styles.button}>Try Now</Link></td>
                 </tr>
                 <tr>
                     <td>Text</td>
                     <td>You</td>
-                    <td><Link href="https://genpen.io/login.xhtml">Try Now</Link></td>
+                    <td><Link href="https://genpen.io/login.xhtml" className={styles.button}>Try Now</Link></td>
                 </tr>
                 <tr>
                     <td>REST API</td>
                     <td>You</td>
-                    <td><Link href="https://genpen.io/login.xhtml">Try Now</Link></td>
+                    <td><Link href="https://genpen.io/login.xhtml" className={styles.button}>Try Now</Link></td>
                 </tr>
                 </tbody>
             </table>
@@ -92,4 +92,4 @@ const ScratchPad = () => {
     );
 }
 
-export default ScratchPad;
+export default AIDE;

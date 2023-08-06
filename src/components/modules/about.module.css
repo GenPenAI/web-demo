@@ -187,4 +187,76 @@
   
 
   
+  @media (max-width: 768px) {
+    .researchOverview {
+      flex-direction: column;
+      padding: 20px;
+      height: auto;
+    }
+  
+    .quote, .quote2 {
+      font-size: 2.5em;
+      text-align: center;
+      padding-right: 0;
+    }
+  
+    .paragraphContainer {
+      font-size: 1.5em;
+      padding-left: 0;
+    }
+  
+    .paragraph1 {
+      font-size: 1.5em;
+    }
+  
+    .buttons {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .button {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .section {
+      flex-direction: column;
+    }
+  
+    .container, .smallHeader, .sectionItem {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  
+    .image {
+      max-width: 100%;
+    }
+  
+    .quoteSection {
+      flex-direction: column;
+    }
+  
+    .textContainer {
+      width: 100%;
+      text-align: center;
+      align-items: center;
+    }
+  
+    .header, .header1, .header2, .header3 {
+      text-align: center;
+    }
+  
+    .imageContainer {
+      width: 100%;
+    }
+  
+    .buttonsBottom {
+      flex-direction: column;
+    }
+  
+    .buttonBottom {
+      width: 100%;
+    }
+  }
   

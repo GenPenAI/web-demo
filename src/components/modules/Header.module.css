@@ -1,118 +1,138 @@
 /* Header.module.css */
 
 .header {
-    background-color: #c8ff0096;
-    color: #757575;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-  }
-  
-  .logo {
-    height: 50px;
-  }
-  
-  .nav {
-    color: #757575;
-  }
-  
-  .menu {
-    display: flex;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    color: #757575;
-    text-decoration: none;
-  }
-  
-  .menuItem {
-    color: #c8ff0096;
-    position: relative;
-    margin-right: 1rem;
-    text-decoration: none;
-  }
-  
-  .submenu {
-    display: none;
-    position: absolute;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    top: 100%;
-    left: 0;
-    background-color: #c8ff0096;
-    text-decoration: none;
-  }
-  
-  .menuItem:hover .submenu {
-    display: block;
-    color: #c8ff0096;
-  }
-  
-  .buttons {
-    display: flex;
-    gap: 1rem;
-  }
-  
-  .loginButton, .signUpButton {
-    color: #252525;
-    background-color: #c8ff0096;
-    padding: 0.5rem 1rem;
-    border-radius: 4px;
-    text-decoration: none;
-  }
-  
-  /* Header.module.css */
+  background-color: #c8ff0096;
+  color: #757575;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
 
-/* Existing styles... */
+.logo {
+  height: 50px;
+}
+
+.nav {
+  color: #757575;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #757575;
+  text-decoration: none;
+}
+
+.menuItem {
+  color: #c8ff0096;
+  position: relative;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  top: 100%;
+  left: 0;
+  background-color: #c8ff0096;
+  text-decoration: none;
+}
+
+.menuItem:hover .submenu {
+  display: block;
+  color: #c8ff0096;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.loginButton, .signUpButton {
+  color: #252525;
+  background-color: #c8ff0096;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+/* Mobile styles */
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 4px;
+}
+
+.bar {
+  height: 3px;
+  width: 25px;
+  background-color: #757575;
+}
 
 @media (max-width: 768px) {
   .header {
-    flex-direction: column;
-    padding: 0.5rem;
-    align-items: center;
+      flex-direction: column;
+      padding: 0.5rem;
+      align-items: center;
   }
 
   .logo {
-    height: 40px;
-    margin-bottom: 0.5rem;
+      height: 40px;
+      margin-bottom: 0.5rem;
   }
 
   .nav {
-    width: 100%;
-    text-align: center;
-    margin-top: 0.5rem;
+      display: none;
+      width: 100%;
+      text-align: center;
+      margin-top: 0.5rem;
   }
 
   .menu {
-    flex-direction: column;
-    align-items: center;
-    gap: 0.5rem;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.5rem;
   }
 
   .menuItem {
-    margin-right: 0;
-    margin-bottom: 0.5rem;
+      margin-right: 0;
+      margin-bottom: 0.5rem;
   }
 
   .submenu {
-    left: 50%;
-    transform: translateX(-50%);
+      left: 50%;
+      transform: translateX(-50%);
   }
 
   .buttons {
-    flex-direction: column;
-    width: 100%;
-    gap: 0.5rem;
-    margin-top: 1rem;
+      flex-direction: column;
+      width: 100%;
+      gap: 0.5rem;
+      margin-top: 1rem;
   }
 
   .loginButton, .signUpButton {
-    width: 100%;
-    text-align: center;
+      width: 100%;
+      text-align: center;
+  }
+
+  .hamburger {
+      display: flex;
+  }
+
+  .hamburger.active + .nav {
+      display: block;
   }
 }

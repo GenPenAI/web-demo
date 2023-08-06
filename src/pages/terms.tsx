@@ -4,6 +4,7 @@ import styles from '../components/modules/charter.module.css'
 import Link from 'next/link'
 import '../styles/globals.css';
 import React from 'react';
+import Image from 'next/image';
 
 const Terms = () => {
   return (
@@ -13,12 +14,12 @@ const Terms = () => {
             <div className={styles.textContainer}>
           <h1 className={styles.header}>Terms of Service</h1>
               <p className={styles.paragraph}>
-                Our Charter describes the<br/>principles we use to execute<br/>on GenPen AI's mission.
+                Our Charter describes the<br/>principles we use to execute<br/>on GenPen AI@apos;s mission.
               </p>
             
             </div>
             <div className={styles.imageContainer}>
-              <img src="/logotri.png" alt="Career Image" className={styles.careerImage}/>
+              <Image src="/logotri.png" alt="Career Image" className={styles.careerImage}/>
             </div>
           </div>
           <hr />

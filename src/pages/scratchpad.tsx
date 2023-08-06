@@ -3,6 +3,7 @@ import { Footer } from '../components/Footer'
 import styles from '../components/modules/scratchpad.module.css'
 import Link from 'next/link'
 import '../styles/globals.css';
+import Image from 'next/image';
 
 const ScratchPad = () => {
     return (
@@ -22,19 +23,19 @@ const ScratchPad = () => {
       <h3>Latest Updates</h3>
       <div className={styles.section}>
   <div className={styles.sectionItem}>
-    <img src="/logotri.png" alt="Image 1" className={styles.image}/>
+    <Image src="/logotri.png" alt="Image 1" className={styles.image}/>
     <Link href="/link/to/post1" className={styles.button}>Blog post 1</Link>
   </div>
   <div className={styles.sectionItem}>
-    <img src="/logotri.png" alt="Image 2" className={styles.image}/>
+    <Image src="/logotri.png" alt="Image 2" className={styles.image}/>
     <Link href="/link/to/post2" className={styles.button}>Blog post 2</Link>
   </div>
   <div className={styles.sectionItem}>
-    <img src="/logotri.png" alt="Image 3" className={styles.image}/>
+    <Image src="/logotri.png" alt="Image 3" className={styles.image}/>
     <Link  href="/link/to/post3" className={styles.button}>Blog post 3</Link>
   </div>
   <div className={styles.sectionItem}>
-    <img src="/logotri.png" alt="Image 4" className={styles.image}/>
+    <Image src="/logotri.png" alt="Image 4" className={styles.image}/>
     <Link href="/link/to/post4" className={styles.button}>Blog post 4</Link>
   </div>
 </div>
@@ -48,7 +49,7 @@ const ScratchPad = () => {
     <Link href="https://genpen.io/login.xhtml" className={styles.button}>Try on the web</Link>
   </div>
   <div className={styles.imageContainer}>
-    <img src="/logotri.png" alt="Career Image" className={styles.careerImage}/>
+    <Image src="/logotri.png" alt="Career Image" className={styles.careerImage}/>
   </div>
 </div>
 <hr />

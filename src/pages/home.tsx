@@ -3,6 +3,7 @@ import styles from '../components/modules/Home.module.css'
 import Link from 'next/link'
 import { Header } from '../components/Header'
 import { Footer } from '../components/Footer'
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -38,19 +39,19 @@ export default function Home() {
       <h3>Latest Updates</h3>
       <div className={styles.section}>
   <div className={styles.sectionItem}>
-    <img src="/logotri.png" alt="Image 1" className={styles.image}/>
+    <Image src="/logotri.png" alt="Image 1" className={styles.image}/>
     <a href="/link/to/post1" className={styles.button}>Blog post 1</a>
   </div>
   <div className={styles.sectionItem}>
-    <img src="/logotri.png" alt="Image 2" className={styles.image}/>
+    <Image src="/logotri.png" alt="Image 2" className={styles.image}/>
     <a href="/link/to/post2" className={styles.button}>Blog post 2</a>
   </div>
   <div className={styles.sectionItem}>
-    <img src="/logotri.png" alt="Image 3" className={styles.image}/>
+    <Image src="/logotri.png" alt="Image 3" className={styles.image}/>
     <a  href="/link/to/post3" className={styles.button}>Blog post 3</a>
   </div>
   <div className={styles.sectionItem}>
-    <img src="/logotri.png" alt="Image 4" className={styles.image}/>
+    <Image src="/logotri.png" alt="Image 4" className={styles.image}/>
     <a href="/link/to/post4" className={styles.button}>Blog post 4</a>
   </div>
 </div>
@@ -58,28 +59,28 @@ export default function Home() {
 <h3>Template Gallery</h3>
       <div className={styles.section}>
   <div className={styles.sectionItem}>
-    <img src="/logotri.png" alt="Image 1" className={styles.image}/>
+    <Image src="/logotri.png" alt="Image 1" className={styles.image}/>
     <h3>Title</h3>
     <h3>Price</h3>
     <a href="/link/to/demo" className={styles.button}>Demo</a> <br />
     <a href="/link/to/purchase" className={styles.button}>Purchase</a>
   </div>
   <div className={styles.sectionItem}>
-    <img src="/logotri.png" alt="Image 2" className={styles.image}/>
+    <Image src="/logotri.png" alt="Image 2" className={styles.image}/>
     <h3>Title</h3>
     <h3>Price</h3>
     <a href="/link/to/demo" className={styles.button}>Demo</a> <br />
     <a href="/link/to/purchase" className={styles.button}>Purchase</a>
   </div>
   <div className={styles.sectionItem}>
-    <img src="/logotri.png" alt="Image 3" className={styles.image}/>
+    <Image src="/logotri.png" alt="Image 3" className={styles.image}/>
     <h3>Title</h3>
     <h3>Price</h3>
     <a href="/link/to/demo" className={styles.button}>Demo</a> <br />
     <a href="/link/to/purchase" className={styles.button}>Purchase</a>
   </div>
   <div className={styles.sectionItem}>
-    <img src="/logotri.png" alt="Image 4" className={styles.image}/>
+    <Image src="/logotri.png" alt="Image 4" className={styles.image}/>
     <h3>Title</h3>
     <h3>Price</h3>
     <a href="/link/to/demo" className={styles.button}>Demo</a> <br />
@@ -88,14 +89,14 @@ export default function Home() {
 </div>
 <hr />
 <h3>Opportunities at GenPen AI</h3>
-<img src="/logo.png" alt="Big Careers Image"/>
+<Image src="/logo.png" alt="Big Careers Image"/>
 <hr />
 <div className={styles.quoteSection}>
   <blockquote className={styles.quote}>
-    "Working at GenPen AI has brought <br /> me great fortune and wealth."
+    &quot;Working at GenPen AI has brought <br /> me great fortune and wealth.&quot;
   </blockquote>
   <div className={styles.imageContainer}>
-    <img src="/logotri.png" alt="Career Image" className={styles.careerImage}/>
+    <Image src="/logotri.png" alt="Career Image" className={styles.careerImage}/>
   </div>
 </div>
 <hr />

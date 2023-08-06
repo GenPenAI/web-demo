@@ -1,61 +1,60 @@
-// components/Header.tsx
-
 import Link from 'next/link';
+import Image from 'next/image';
 import styles from './modules/Header.module.css';
 import '../styles/globals.css';
 
 export const Header = () => (
   <header className={styles.header}>
-    <a href="/home">
-      <img src="/logo.png" alt="Logo" className={styles.logo} />
-    </a>
+    <Link href="/home">
+      <a>
+        <Image src="/logo.png" alt="Logo" width={100} height={100} className={styles.logo} />
+      </a>
+    </Link>
     <nav className={styles.nav}>
       <ul className={styles.menu}>
         <li className={styles.menuItem}>
-          <a href="/research-overview" className={styles.button}>Research</a>
+          <Link href="/research-overview"><a className={styles.button}>Research</a></Link>
           <ul className={styles.submenu}>
-            <li><a href="/research-overview" className={styles.button}>Overview</a></li>
-            <li><a href="/research-index" className={styles.button}>Index</a></li>
+            <li><Link href="/research-overview"><a className={styles.button}>Overview</a></Link></li>
+            <li><Link href="/research-index"><a className={styles.button}>Index</a></Link></li>
           </ul>
         </li>
         <li className={styles.menuItem}>
-          <a href="/product-overview" className={styles.button}>Product </a>
+          <Link href="/product-overview"><a className={styles.button}>Product</a></Link>
           <ul className={styles.submenu}>
-            <li><a href="/product-overview" className={styles.button}>Overview</a></li>
-            <li><a href="/scratchpad" className={styles.button}>ScratchPad</a></li>
-            <li><a href="/journal" className={styles.button}>Journal</a></li>
-            <li><a href="/aide" className={styles.button}>AIDE</a></li>
-            <li><a href="/holly" className={styles.button}>Holly</a></li>
-            <li><a href="/customer-stories" className={styles.button}>Customer Stories</a></li>
-            <li><a href="/pricing" className={styles.button}>Pricing</a></li>
+            <li><Link href="/product-overview"><a className={styles.button}>Overview</a></Link></li>
+            <li><Link href="/scratchpad"><a className={styles.button}>ScratchPad</a></Link></li>
+            <li><Link href="/journal"><a className={styles.button}>Journal</a></Link></li>
+            <li><Link href="/aide"><a className={styles.button}>AIDE</a></Link></li>
+            <li><Link href="/holly"><a className={styles.button}>Holly</a></Link></li>
+            <li><Link href="/customer-stories"><a className={styles.button}>Customer Stories</a></Link></li>
+            <li><Link href="/pricing"><a className={styles.button}>Pricing</a></Link></li>
           </ul>
         </li>
         <li className={styles.menuItem}>
-          <a href="/developer-overview" className={styles.button}>Developers</a>
+          <Link href="/developer-overview"><a className={styles.button}>Developers</a></Link>
           <ul className={styles.submenu}>
-            <li><a href="/developer-overview" className={styles.button}>Overview</a></li>
-            <li><a href="/developer-docs" className={styles.button}>Docs</a></li>
-            <li><a href="/developer-api" className={styles.button}>API Reference</a></li>
-            <li><a href="/developer-examples" className={styles.button}>Examples</a></li>
+            <li><Link href="/developer-overview"><a className={styles.button}>Overview</a></Link></li>
+            <li><Link href="/developer-docs"><a className={styles.button}>Docs</a></Link></li>
+            <li><Link href="/developer-api"><a className={styles.button}>API Reference</a></Link></li>
+            <li><Link href="/developer-examples"><a className={styles.button}>Examples</a></Link></li>
           </ul>
         </li>
         <li className={styles.menuItem}>
-          <a href="/about" className={styles.button}>Company</a>
+          <Link href="/about"><a className={styles.button}>Company</a></Link>
           <ul className={styles.submenu}>
-            <li><a href="/about" className={styles.button}>About</a></li>
-            <li><a href="/blog" className={styles.button}>Blog</a></li>
-            <li><a href="/careers" className={styles.button}>Careers</a></li>
-            <li><a href="/charter" className={styles.button}>Charter</a></li>
+            <li><Link href="/about"><a className={styles.button}>About</a></Link></li>
+            <li><Link href="/blog"><a className={styles.button}>Blog</a></Link></li>
+            <li><Link href="/careers"><a className={styles.button}>Careers</a></Link></li>
+            <li><Link href="/charter"><a className={styles.button}>Charter</a></Link></li>
           </ul>
         </li>
       </ul>
     </nav>
  
     <div className={styles.buttons}>
-      <Link href="https://genpen.io/login.xhtml" className={styles.loginButton}>Login
-      </Link>
-      <Link href="https://genpen.io/signup.xhtml" className={styles.signUpButton}>Sign Up
-      </Link>
+      <Link href="https://genpen.io/login.xhtml"><a className={styles.loginButton}>Login</a></Link>
+      <Link href="https://genpen.io/signup.xhtml"><a className={styles.signUpButton}>Sign Up</a></Link>
     </div>
   </header>
 );

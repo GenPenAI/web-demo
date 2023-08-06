@@ -3,6 +3,7 @@ import { Footer } from '../components/Footer'
 import styles from '../components/modules/about.module.css'
 import Link from 'next/link'
 import '../styles/globals.css';
+import Image from 'next/image';
 
 const About = () => {
   return (
@@ -19,7 +20,7 @@ const About = () => {
         </div>
       </div>
       <div className={styles.sectionItem}>
-    <img src="/logo.png" alt="Research at GenPen AI" className={styles.image1}/>
+    <Image src="/logo.png" alt="Research at GenPen AI" className={styles.image1}/>
   </div>
   <hr />
 
@@ -29,12 +30,11 @@ const About = () => {
               <p className={styles.paragraph1}>
                 Our mission is to ensure all<br/>humans have access to the<br/>benefit of artificial<br/>intelligence enhancement.
               </p>
-              <a href="/blog/plan-for-aie" className={styles.button}>Read our Plan for AIE</a>
-              <a href="/charter" className={styles.button}>Read our Charter</a>
-
+              <Link href="/blog/plan-for-aie" className={styles.button}>Read our Plan for AIE</Link>
+              <Link href="/charter" className={styles.button}>Read our Charter</Link>
             </div>
             <div className={styles.imageContainer}>
-              <img src="/logotri.png" alt="Career Image" className={styles.careerImage}/>
+              <Image src="/logotri.png" alt="Career Image" className={styles.careerImage}/>
             </div>
           </div>
           <hr />
@@ -43,19 +43,19 @@ const About = () => {
           <h3>Research</h3>
                 <div className={styles.section}>
             <div className={styles.sectionItem}>
-              <img src="/logotri.png" alt="Image 1" className={styles.image}/>
+              <Image src="/logotri.png" alt="Image 1" className={styles.image}/>
               <Link href="/link/to/post1" className={styles.button}>Blog post 1</Link>
             </div>
             <div className={styles.sectionItem}>
-              <img src="/logotri.png" alt="Image 2" className={styles.image}/>
+              <Image src="/logotri.png" alt="Image 2" className={styles.image}/>
               <Link href="/link/to/post2" className={styles.button}>Blog post 2</Link>
             </div>
             <div className={styles.sectionItem}>
-              <img src="/logotri.png" alt="Image 3" className={styles.image}/>
+              <Image src="/logotri.png" alt="Image 3" className={styles.image}/>
               <Link  href="/link/to/post3" className={styles.button}>Blog post 3</Link>
             </div>
             <div className={styles.sectionItem}>
-              <img src="/logotri.png" alt="Image 4" className={styles.image}/>
+              <Image src="/logotri.png" alt="Image 4" className={styles.image}/>
               <Link href="/link/to/post4" className={styles.button}>Blog post 4</Link>
             </div>
           </div>
@@ -64,26 +64,26 @@ const About = () => {
           <h3>Products</h3>
                 <div className={styles.section}>
             <div className={styles.sectionItem}>
-              <img src="/logotri.png" alt="Image 1" className={styles.image}/>
+              <Image src="/logotri.png" alt="Image 1" className={styles.image}/>
               <Link href="/link/to/post1" className={styles.button}>Blog post 1</Link>
             </div>
             <div className={styles.sectionItem}>
-              <img src="/logotri.png" alt="Image 2" className={styles.image}/>
+              <Image src="/logotri.png" alt="Image 2" className={styles.image}/>
               <Link href="/link/to/post2" className={styles.button}>Blog post 2</Link>
             </div>
             <div className={styles.sectionItem}>
-              <img src="/logotri.png" alt="Image 3" className={styles.image}/>
+              <Image src="/logotri.png" alt="Image 3" className={styles.image}/>
               <Link  href="/link/to/post3" className={styles.button}>Blog post 3</Link>
             </div>
             <div className={styles.sectionItem}>
-              <img src="/logotri.png" alt="Image 4" className={styles.image}/>
+              <Image src="/logotri.png" alt="Image 4" className={styles.image}/>
               <Link href="/link/to/post4" className={styles.button}>Blog post 4</Link>
             </div>
           </div>
           <hr />
           <h2 className={styles.header3}>Opportunities<br/>at GenPen AI</h2>
           <div className={styles.sectionItem}>
-    <img src="/logo.png" alt="Research at GenPen AI" className={styles.image1}/>
+    <Image src="/logo.png" alt="Research at GenPen AI" className={styles.image1}/>
   </div>
 <hr/>
           <div className={styles.quoteSection}>
@@ -96,7 +96,7 @@ const About = () => {
 
             </div>
             <div className={styles.imageContainer}>
-              <img src="/logotri.png" alt="Career Image" className={styles.careerImage}/>
+              <Image src="/logotri.png" alt="Career Image" className={styles.careerImage}/>
             </div>
           </div>
           <hr />

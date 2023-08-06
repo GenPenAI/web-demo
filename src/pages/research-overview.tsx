@@ -4,6 +4,7 @@ import { Footer } from '../components/Footer';
 import Link from 'next/link';
 import '../styles/globals.css';
 import styles from '../components/modules/research-overview.module.css';
+import Image from 'next/image';
 
 const ResearchOverview = () => {
   return (
@@ -31,7 +32,7 @@ const ResearchOverview = () => {
       </div>
       <hr />
       <div className={styles.sectionItem}>
-    <img src="/logo.png" alt="Research at GenPen AI" className={styles.image}/>
+    <Image src="/logo.png" alt="Research at GenPen AI" className={styles.image}/>
    
   </div>
   <hr />
@@ -121,7 +122,7 @@ const ResearchOverview = () => {
         </div>
         <hr />
         <div className={styles.sectionItem}>
-    <img src="/logo.png" alt="Research at GenPen AI" className={styles.image}/>
+    <Image src="/logo.png" alt="Research at GenPen AI" className={styles.image}/>
    
   </div>
   <hr />

@@ -1,121 +1,155 @@
 .page {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.title {
+  text-align: left;
+  font-size: 6em;
+  width: 100%;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 75%;
+  position: absolute;
+  bottom: 0;
+}
+
+.button {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #252525;
+  background-color: #c8ff0096;
+  border: none;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #444;
+}
+
+.section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  max-width: 1440px;
+  margin: 2rem auto;
+}
+
+.container {
+  flex: 1;
+  text-align: center;
+}
+
+.smallHeader {
+  flex: 1;
+  text-align: left;
+}
+
+.sectionItem {
+  text-align: left;
+  margin-right: 2rem;
+}
+
+.image {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+.viewAll {
+  display: block;
+  text-align: right;
+  margin: 2rem auto;
+}
+
+.quoteSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 50%;
+}
+
+.header {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.paragraph {
+  margin-bottom: 1em;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.careerImage {
+  max-width: 100%;
+  height: auto;
+}
+
+.table {
+  width: 100%;
+  max-width: 800px;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  text-align: left;
+}
+
+.table th {
+  background-color: #eee;
+}
+
+/* Mobile-friendly adaptations */
+@media (max-width: 768px) {
   .title {
-    text-align: left;
-    font-size: 6em;
-    width: 100%;
-  }
-  
-  .buttons {
-    display: flex;
-    justify-content: space-around;
-    width: 75%;
-    position: absolute;
-    bottom: 0;
-  }
-  
-  .button {
-    padding: 10px 20px;
-    text-decoration: none;
-    color: #252525;
-    background-color: #c8ff0096;
-    border: none;
-    border-radius: 5px;
-  }
-  
-  .button:hover {
-    background-color: #444;
-  }
-  
-  .section {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    max-width: 1440px;
-    margin: 2rem auto;
-  }
-  
-  .container {
-    flex: 1;
-    text-align: center;
-  }
-  
-  .smallHeader {
-    flex: 1;
-    text-align: left;
-  }
-  
-  .sectionItem {
-    text-align: left;
-    margin-right: 2rem;
-  }
-  
-  .image {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-  }
-  
-  .viewAll {
-    display: block;
-    text-align: right;
-    margin: 2rem auto;
-  }
-  
-  .quoteSection {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .textContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    width: 50%;
-  }
-  
-  .header {
-    font-size: 2em;
-    margin-bottom: 1em;
-  }
-  
-  .paragraph {
-    margin-bottom: 1em;
-  }
-  
-  .imageContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-  }
-  
-  .careerImage {
-    max-width: 100%;
-    height: auto;
+      font-size: 3em; /* Reduce font size for mobile */
   }
 
-  .table {
-    width: 100%;
-    max-width: 800px;
-    border-collapse: collapse;
+  .buttons {
+      flex-direction: column; /* Stack buttons vertically */
+      position: static; /* Remove absolute positioning */
+      width: 100%; /* Full width */
   }
-  
-  .table th, .table td {
-    border: 1px solid #ccc;
-    padding: 1rem;
-    text-align: left;
+
+  .button {
+      margin: 5px 0; /* Add some vertical margin for stacked buttons */
+      width: 90%; /* Adjust width for mobile */
   }
-  
-  .table th {
-    background-color: #eee;
+
+  .section {
+      flex-direction: column; /* Stack items vertically */
   }
+
+  .container, .smallHeader, .sectionItem, .textContainer, .imageContainer {
+      width: 100%; /* Full width for mobile */
+  }
+
+  .header {
+      font-size: 1.5em; /* Reduce font size for mobile */
+  }
+
+  .quoteSection {
+      flex-direction: column; /* Stack items vertically */
+  }
+}

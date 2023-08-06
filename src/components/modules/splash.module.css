@@ -24,4 +24,15 @@
     border: 2px solid #fff;
     cursor: pointer;
   }
-  
+  /* Mobile-friendly adaptations */
+@media (max-width: 768px) {
+  .enter-button {
+      font-size: 1.5em; /* Reduce font size for mobile */
+      padding: 8px 16px; /* Adjust padding for mobile */
+  }
+
+  /* If the video doesn't look good or takes too much bandwidth on mobile, you can hide it */
+  .preload-video {
+      display: none;
+  }
+}

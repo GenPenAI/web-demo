@@ -110,3 +110,64 @@
     width: 100%;
   }
   
+  /* research-index.module.css */
+.container {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* ... (rest of your CSS remains unchanged) ... */
+
+/* Mobile-friendly adaptations */
+@media (max-width: 768px) {
+.container {
+  padding: 20px;
+  align-items: stretch; /* To make elements take full width on mobile */
+}
+
+.header {
+  font-size: 2em;
+  text-align: center; /* Center the header on mobile */
+}
+
+.searchBar {
+  flex-direction: column; /* Stack input and button vertically */
+  align-items: stretch;
+}
+
+.searchInput {
+  margin-bottom: 10px; /* Space between input and button */
+}
+
+.searchButton {
+  width: 100%; /* Make button take full width */
+}
+
+.filterSortButtons {
+  justify-content: space-around; /* Distribute buttons evenly */
+  width: 100%; /* Make buttons container take full width */
+}
+
+.filterSortButton {
+  flex: 1; /* Make buttons take equal width */
+  margin: 0 5px; /* Add some margin around buttons for spacing */
+}
+
+.table th, .table td {
+  padding: 10px; /* Reduce padding for table cells on mobile */
+}
+
+.title {
+  font-size: 1.5em; /* Reduce font size for title on mobile */
+}
+
+.buttons {
+  flex-direction: column; /* Stack buttons vertically */
+}
+
+.button {
+  margin: 5px 0; /* Add some vertical margin for stacked buttons */
+}
+}

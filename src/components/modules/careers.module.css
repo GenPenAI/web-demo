@@ -246,4 +246,93 @@
   }
   
     
-  
+  /* Existing styles... */
+
+@media (max-width: 768px) {
+  .quoteSection, .quoteSection2 {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .textContainer, .imageContainer, .imageContainer2 {
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .paragraph {
+    font-size: 2em;
+  }
+
+  .button {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .videoContainer {
+    height: auto;
+  }
+
+  .quote2 {
+    font-size: 2em;
+  }
+
+  .section3, .threeImageSection, .largeImagesBuilt, .smallImagesBuilt {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .bulletItem {
+    margin-right: 0;
+  }
+
+  .imageListItem {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .imageListItem img {
+    max-width: 100%;
+  }
+
+  .table {
+    width: 100%;
+  }
+
+  .sectionTable, .sectionUpdates {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .sectionItemUpdates, .smallHeaderTable {
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .buttonsCareers {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .buttonCareers {
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+
+  .sectionBuilt {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .imageContainerBuilt {
+    width: 100%;
+  }
+
+  .smallImageBuilt {
+    width: 48%; /* adjusted for 2 images per row */
+  }
+}

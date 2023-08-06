@@ -186,4 +186,87 @@
     margin-left: 10%;
   }
   
-  
+  /* Existing styles... */
+
+@media (max-width: 768px) {
+  .page {
+    height: auto;
+    padding: 1rem;
+  }
+
+  .title {
+    font-size: 3em;
+    text-align: center;
+  }
+
+  .buttons {
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    bottom: initial;
+    margin-top: 1rem;
+  }
+
+  .button {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .section, .sectionCharter {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .container, .textContainer, .paragraphContainer, .imageContainer {
+    width: 100%;
+    text-align: center;
+  }
+
+  .smallHeader, .headerCharter {
+    text-align: center;
+    width: 100%;
+  }
+
+  .sectionItem {
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .image, .image1 {
+    max-width: 100%;
+  }
+
+  .viewAll {
+    text-align: center;
+  }
+
+  .quoteSection {
+    flex-direction: column;
+    text-align: center;
+    font-size: 2em;
+  }
+
+  .quote {
+    padding-right: 0;
+    text-align: center;
+  }
+
+  .buttons1 {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .paragraph1, .paragraph {
+    text-align: center;
+  }
+
+  .paragraphCharter {
+    width: 100%;
+    margin-left: 0;
+  }
+}

@@ -156,6 +156,91 @@
     margin: 1%; /* added margin for some spacing */
   }
   
+/* ... Existing styles ... */
+
+@media (max-width: 768px) {
+  .researchOverview {
+    height: auto;
+    padding: 20px 10px;
+  }
+
+  .quote, .quote2 {
+    font-size: 2.5em;
+    padding-right: 10px;
+  }
+
+  .section {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .container, .smallHeader, .sectionItem {
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .image {
+    max-width: 100%;
+  }
+
+  .quoteSection {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .quote3 {
+    font-size: 1.2em;
+    text-align: center;
+  }
+
+  .imageContainer, .paragraphContainer {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .paragraph, .paragraph1 {
+    font-size: 1.2em;
+    text-align: center;
+  }
+
+  .buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .button {
+    margin: 5px 0;
+  }
+
+  .sectionBuilt {
+    width: 100%;
+  }
+
+  .headerBuilt {
+    font-size: 1.5em;
+  }
+
+  .largeImagesBuilt {
+    flex-direction: column;
+  }
+
+  .imageContainerBuilt {
+    width: 100%;
+  }
+
+  .imageCaptionBuilt {
+    font-size: 1em;
+  }
+
+  .smallImagesBuilt {
+    flex-wrap: wrap;
+  }
+
+  .smallImageBuilt {
+    width: 45%; /* 2 images per row */
+    margin: 2.5%;
+  }
+}
 
   
   

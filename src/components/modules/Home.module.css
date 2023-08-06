@@ -115,3 +115,46 @@
     height: auto;
   }
   
+ /* Page.module.css */
+
+/* ... Existing styles ... */
+
+@media (max-width: 768px) {
+  .page {
+    padding: 1rem;
+  }
+
+  .title {
+    font-size: 2.5em;
+    text-align: center;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .button {
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+
+  .section {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .container, .smallHeader, .sectionItem {
+    text-align: center;
+    margin-right: 0;
+  }
+
+  .quoteSection {
+    flex-direction: column;
+  }
+
+  .quote, .imageContainer {
+    flex: 1 1 100%;
+  }
+}
+ 

@@ -119,3 +119,50 @@
 .table th {
   background-color: #eee;
 }
+
+/* ... Existing styles ... */
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 3em;
+  }
+
+  .buttons {
+    width: 90%;
+    flex-direction: column;
+    position: static;
+    margin-top: 20px;
+  }
+
+  .button {
+    margin: 5px 0;
+  }
+
+  .section {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .container, .smallHeader, .sectionItem {
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .image {
+    max-width: 100%;
+  }
+
+  .quoteSection {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .textContainer {
+    width: 100%;
+  }
+
+  .imageContainer {
+    width: 100%;
+    margin-top: 20px;
+  }
+}

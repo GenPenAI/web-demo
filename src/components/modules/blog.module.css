@@ -183,6 +183,89 @@
     color: white;
   }
   
+/* Existing styles... */
+
+@media (max-width: 768px) {
+  .researchOverview {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .quote, .quote2 {
+    font-size: 2.5em;
+    text-align: center;
+    padding-right: 0;
+  }
+
+  .paragraphContainer {
+    font-size: 1.5em;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .paragraph, .paragraph1 {
+    margin-bottom: 1rem;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+  }
+
+  .button {
+    width: 100%;
+    text-align: center;
+  }
+
+  .section {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .container, .smallHeader, .sectionItem {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .image {
+    max-width: 100%;
+  }
+
+  .quoteSection {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .textContainer {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .header, .header1, .header2, .header3 {
+    text-align: center;
+  }
+
+  .imageContainer {
+    width: 100%;
+  }
+
+  .titleBottom {
+    font-size: 1.5em;
+  }
+
+  .buttonsBottom {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .buttonBottom {
+    width: 100%;
+    font-size: 1em;
+  }
+}
 
   
   
